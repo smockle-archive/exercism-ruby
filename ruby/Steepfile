@@ -3,8 +3,8 @@
 target :app do
   signature '.'
 
-  check '*.rb'
-  ignore '*_test.rb'
+  check '**/*.rb'
+  ignore '**/*_test.rb'
 
   library 'pathname', 'set'
 end
