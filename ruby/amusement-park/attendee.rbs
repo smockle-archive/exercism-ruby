@@ -1,0 +1,10 @@
+class Attendee
+  attr_reader height: Integer
+  attr_reader pass_id: Integer?
+
+  def initialize: (Integer height) -> Integer
+
+  def issue_pass!: (Integer pass_id) -> Integer?
+
+  def revoke_pass!: () -> Integer?
+end
