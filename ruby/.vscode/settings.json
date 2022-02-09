@@ -1,0 +1,11 @@
+{
+  "ruby.lint": {
+    "rubocop": {
+      "forceExclusion": true
+    }
+  },
+  "ruby.format": "rubocop",
+  "[ruby]": {
+    "editor.defaultFormatter": "rebornix.ruby"
+  }
+}
