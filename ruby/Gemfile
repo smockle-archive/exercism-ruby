@@ -13,3 +13,5 @@ gem "minitest", "~> 5.15"
 gem "rubocop", "= 0.86"
 
 gem "steep", "~> 0.47.0"
+
+gem "rbs", "~> 1.7"

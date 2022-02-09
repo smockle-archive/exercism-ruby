@@ -61,6 +61,7 @@ PLATFORMS
 DEPENDENCIES
   activesupport (= 6.1.4.4)
   minitest (~> 5.15)
+  rbs (~> 1.7)
   rubocop (= 0.86)
   steep (~> 0.47.0)
 
