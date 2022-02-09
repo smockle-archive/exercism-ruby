@@ -1,0 +1,16 @@
+class Attendee
+  def initialize: (Integer height) -> Integer
+
+  def issue_pass!: (Integer pass_id) -> Integer?
+
+  def revoke_pass!: () -> Integer?
+
+  attr_reader height: Integer
+  attr_reader pass_id: Integer?
+
+  def has_pass?: () -> bool
+
+  def fits_ride?: (Integer ride_minimum_height) -> bool
+
+  def allowed_to_ride?: (Integer ride_minimum_height) -> bool
+end
