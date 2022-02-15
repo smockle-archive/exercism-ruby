@@ -1,0 +1,13 @@
+class LogLineParser
+  LOG_LEVEL: Hash[Symbol, String]
+
+  @line: String
+
+  def initialize: (String line) -> void
+
+  def message: () -> String?
+
+  def log_level: () -> String?
+
+  def reformat: () -> String
+end
