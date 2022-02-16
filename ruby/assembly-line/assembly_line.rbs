@@ -1,0 +1,18 @@
+# Analyze the production of an assembly line in a car factory.
+class AssemblyLine
+  MAX_CARS_PER_HOUR: Integer
+
+  SUCCESS_RATE: Hash[Range[Integer] | Integer, Float]
+
+  @speed: Integer
+
+  def initialize: (Integer speed) -> void
+
+  def production_rate_per_hour: () -> Float?
+
+  def working_items_per_minute: () -> Integer?
+                              
+  private
+
+  def success_rate: () -> Float?
+end
